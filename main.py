@@ -6,7 +6,7 @@ def main():
         words = text.split()
         for i in words:
             wordcounter += 1
-        print(wordcounter)
+        print("There are " + str(wordcounter) + " words in this book!")
     
 
 main()
